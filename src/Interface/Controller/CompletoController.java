@@ -45,6 +45,7 @@ public class CompletoController {
             PessoaImposto pessoa = new PessoaImposto(p.getNome(),p.getCPF(),p.getIdade(),p.getNumeroDependentes(),p.getContribuicaoPrevidenciariaOficial(),p.getTotalRendimentos(),calcula.calculoCompleto());
 
             if (adicionar(pessoa)) {
+
                 JOptionPane.showMessageDialog(null,"Calculo realizado com sucesso!");
                 main.loadScene("FXML/TelaInicial.fxml", "Bem Vindo");
             } else {

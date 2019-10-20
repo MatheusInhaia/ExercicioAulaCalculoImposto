@@ -43,15 +43,15 @@ public class PessoaImpostoGenerica {
     }
 
     public String getContr() {
-        return contr.get();
+        return contr.getValue();
     }
 
     public String getTotalRendimentos() {
-        return totalRendimentos.get();
+        return totalRendimentos.getValue();
     }
 
     public String getValor() {
-        return valor.get();
+        return valor.getValue();
     }
 
 
